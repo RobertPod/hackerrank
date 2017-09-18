@@ -16,8 +16,7 @@ for val in arr:
     else:
         zer = zer + 1
 
-#print('%(val)8.6f ' % {'val': (pos / n)})
-print ('%8.6f' % (pos/n))
-print ('%8.6f' % (neg/n))
-print ('%8.6f' % (zer/n))
-
+# print('%(val)8.6f ' % {'val': (pos / n)})
+print ('%8.6f' % (pos / n))
+print ('%8.6f' % (neg / n))
+print ('%8.6f' % (zer / n))
