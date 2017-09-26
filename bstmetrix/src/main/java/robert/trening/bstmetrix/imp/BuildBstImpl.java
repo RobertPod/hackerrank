@@ -23,7 +23,7 @@ public class BuildBstImpl implements BuildBst, Serializable {
             for (int i = 1; i < length; i++) {
                 BinaryTree locRoot = root;
                 while (true) {
-                    if (values[i] > locRoot.getValue()) {
+                    if (values[i] >= locRoot.getValue()) {
                         if (locRoot.getRight() == null) {
                             locRoot.setRight(new BinaryTree(values[i]));
                             break;
